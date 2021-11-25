@@ -1,0 +1,17 @@
+using System;
+namespace TestOutput
+{
+class FindOutput
+    {
+         static void Main(string[] args)
+         {
+          
+        String a = "InterView";
+        String b = "INTERVIEW";
+        int val;
+        val = b.CompareTo(a);
+        Console.WriteLine(val);
+    
+        }       
+    }
+}
